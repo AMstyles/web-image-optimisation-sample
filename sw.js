@@ -1,6 +1,5 @@
 const CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
-    '/', // cache the homepage
     '/images-cache/one.jpg',
     '/images-cache/two.jpg',
     '/images-cache/three.jpg',

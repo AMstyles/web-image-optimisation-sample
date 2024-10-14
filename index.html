@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Image Optimization Sample</title>
     <link rel="stylesheet" href="./styles.css">
-    <meta http-equiv="Cache-Control" content="max-age=0, must-revalidate" />
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <h1>Hi, welcome to this sample repo</h1>
-    <h2>These are the originals</h2>
+    <h1>Original Images</h1>
     <section class="image-grid">
         <img src="./images/one.jpg" alt="Image one">
         <img src="./images/two.jpg" alt="Image two">
@@ -20,9 +18,15 @@
         <img src="./images/four.jpg" alt="Image four">
         <img src="./images/five.jpg" alt="Image five">
     </section>
-    <a href="index-cached.html">See how the cached version behaves here</a>
-    <a href="webp-images.html">View the webp optimised version</a>
-    <a href="webp-images.html">View the webp optimised version that is also cached</a>
+    <p>Notice how when you <a class="refresh" href="index.html">refresh</a> this page, all images reload, which may take
+        some time to fully load.</p>
+
+    <h2>Explore More:</h2>
+    <ol>
+        <li><a href="index-cached.html">See how the cached version behaves here</a></li>
+        <li><a href="webp-images.html">View the WebP optimized version</a></li>
+        <li><a href="webp-images-cached.html">View the WebP optimized version that is also cached</a></li>
+    </ol>
 </body>
 
 </html>

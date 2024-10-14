@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Image Optimization Sample</title>
+    <title>Cached Original Images</title>
     <link rel="stylesheet" href="./styles.css">
-    <meta http-equiv="Cache-Control" content="max-age=0, must-revalidate" />
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <h1>Hi, welcome to this sample repo</h1>
-    <h2>These are the originals</h2>
+    <h1>Cached Original Images</h1>
     <section class="image-grid">
         <img src="./images-cache/one.jpg" alt="Image one">
         <img src="./images-cache/two.jpg" alt="Image two">
@@ -20,7 +18,9 @@
         <img src="./images-cache/four.jpg" alt="Image four">
         <img src="./images-cache/five.jpg" alt="Image five">
     </section>
-    <a href="webp-images.html">View the webp optimised version</a>
+    <p>Notice how the first load still take some time but when you <a class="refresh"
+            href="index-cached.html">refresh</a> this page, they load instantly because they are now cached.</p>
+    <p>For a faster first load, check out the <a href="webp-images.html">WebP optimized version</a>.</p>
 </body>
 
 </html>

@@ -28,6 +28,16 @@ h1, h2 {
     border-radius: 10px;
     object-fit: cover; /* Ensures images fill the space while keeping aspect ratio */
     background-color: black;
-    color: black;
 }
 
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center; /* Center-align text for better presentation */
+}
