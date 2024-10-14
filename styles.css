@@ -27,4 +27,7 @@ h1, h2 {
     height: 250px; /* Fixed height for uniform grid items */
     border-radius: 10px;
     object-fit: cover; /* Ensures images fill the space while keeping aspect ratio */
+    background-color: black;
+    color: black;
 }
+
