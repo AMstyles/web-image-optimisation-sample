@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optimized WebP Images</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebP Compressed Images</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./main.js"></script>
-</head>
+  <body>
+    <h1>Optimized WebP Images</h1>
 
-<body>
-    <h1>WebP Compressed Images</h1>
     <section class="image-grid">
-        <img src="./images-webp/one.webp" alt="Image one">
-        <img src="./images-webp/two.webp" alt="Image two">
-        <img src="./images-webp/three.webp" alt="Image three">
-        <img src="./images-webp/four.webp" alt="Image four">
-        <img src="./images-webp/five.webp" alt="Image five">
+      <img src="./images-webp/one.webp" alt="A scenic view in WebP format" />
+      <img
+        src="./images-webp/two.webp"
+        alt="A beautiful landscape in WebP format"
+      />
+      <img src="./images-webp/three.webp" alt="City skyline in WebP format" />
+      <img
+        src="./images-webp/four.webp"
+        alt="Sunset over mountains in WebP format"
+      />
+      <img src="./images-webp/five.webp" alt="Forest path in WebP format" />
     </section>
-    <p>Notice how much faster these images load compared to the originals. See <a href="webp-images-cached.html">Cached
-            version here</a>.</p>
-</body>
 
+    <p>
+      Notice how much faster these WebP images load compared to the original
+      JPEG or PNG formats.
+    </p>
+
+    <ul>
+      <li>
+        These images are cached for <time>1 minute</time>, so subsequent page
+        loads will be even faster.
+      </li>
+      <li>
+        For a deeper look into performance improvements, use Chrome's Lighthouse
+        tool to audit the page's performance, particularly the impact of
+        optimized images.
+      </li>
+      <li>
+        Curious about the difference? Check out the
+        <a href="lighthouse-results/uncompressed_results.html"
+          >Lighthouse scores</a
+        >
+        for the original, uncompressed images.
+      </li>
+      <li>
+        Want to see a side-by-side comparison?
+        <a href="compare.html">Click here</a> to compare the compressed WebP
+        versions with the original formats. Can you spot the difference in
+        quality?
+      </li>
+    </ul>
+  </body>
 </html>
