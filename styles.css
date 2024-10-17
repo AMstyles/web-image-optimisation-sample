@@ -1,74 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-h1, h2 {
-    text-align: center;
-    margin-bottom: 20px;
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
-    gap: 20px;
-    margin-top: 30px;
-    padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Responsive columns */
+  gap: 20px;
+  margin-top: 30px;
+  padding: 0 20px;
 }
 
 .image-grid img {
-    width: 100%;
-    height: 250px; /* Fixed height for uniform grid items */
-    border-radius: 10px;
-    object-fit: cover; /* Ensures images fill the space while keeping aspect ratio */
-    background-color: black;
+  width: 100%;
+  height: 250px; /* Fixed height for uniform grid items */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures images fill the space while keeping aspect ratio */
+  background-color: black;
 }
 
 ol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    text-align: center; /* Center-align text for better presentation */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center; /* Center-align text for better presentation */
 }
 
-
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  .images {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 10px;
-  }
-  .image-wrapper {
-    text-align: center;
-  }
-  .images img {
-    width: 300px;
-    height: auto;
-    border: 1px solid #ccc;
-  }
-  .label {
-    margin-top: 5px;
-    font-weight: bold;
-  }
-  .reduction {
-    color: green;
-  }
-  button {
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.images {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.image-wrapper {
+  text-align: center;
+}
+.images img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+.label {
+  margin-top: 5px;
+  font-weight: bold;
+}
+.reduction {
+  color: green;
+}
+button {
+  margin-bottom: 10px;
+}

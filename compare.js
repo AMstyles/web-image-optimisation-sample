@@ -55,9 +55,7 @@ async function revealAndCompare() {
 
     comparisonInfo.innerHTML = `
       <p class="reduction"><strong>Size Reduction:</strong> ${sizeReduction}%</p>
-      <br>
-      <br>
-      <p>You probably cheating because <strong>webp always load faster!😅🚀</strong></p>
+      <p>You're probably cheating because <strong>webp always load faster!😅🚀</strong></p>
     `;
 
     revealed = true;
