@@ -3,25 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Comparison: JPG vs WebP</title>
+    <title>Image Quality Test: JPG vs. WebP</title>
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./main.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1>Can you tell which one is which?😈</h1>
+      <h1>🔎 Can You Spot the Difference? JPG vs. WebP!</h1>
+      <p>Can you tell which image is compressed?</p>
       <div class="images">
         <div class="image-wrapper">
-          <img id="img1" alt="JPG Image" />
+          <img id="img1" alt="Image 1" />
           <div class="label" id="label1"></div>
         </div>
         <div class="image-wrapper">
-          <img id="img2" alt="WebP Image" />
+          <img id="img2" alt="Image 2" />
           <div class="label" id="label2"></div>
         </div>
       </div>
-      <button id="revealButton">Reveal types</button>
+      <button id="revealButton">Reveal Details!</button>
       <div id="comparisonInfo"></div>
+      <p>
+        Click the button above to uncover the formats and see if the quality
+        difference is noticeable between the JPG and WebP images.
+      </p>
     </div>
 
     <script src="/compare.js" defer></script>

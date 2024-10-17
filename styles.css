@@ -61,9 +61,10 @@ p {
   text-align: center;
 }
 .images img {
-  width: 300px;
   height: auto;
   border: 1px solid #ccc;
+  max-height: 400px;
+  width: 100%;
 }
 .label {
   margin-top: 5px;

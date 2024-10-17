@@ -34,7 +34,7 @@ function loadImagePair() {
 
   revealed = false;
   document.getElementById("revealButton").innerText =
-    "Reveal Format and Compare Sizes";
+    "Reveal Formats and Sizes";
 }
 
 async function revealAndCompare() {
